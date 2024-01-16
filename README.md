@@ -1,15 +1,18 @@
 ## Neovim Personal Config
+![neovim](./imgs/ss.png)
 
 ### Personal config includes:
 
-- Colorschemes
-- cmp plugins
-- snippets
-- LSP
-- Treesitter
-- Telescope
+|Plugin|Description|
+|---|---|
+|Colorscheme|Themes that control the colors and styles of the editor UI.|
+|Cmp plugins|Autocompletion plugins that provide intelligent suggestions as you type.|
+|Snippets|Small templates that quickly insert reusable codes.|
+|LSP(Language Server Protocol)|Feature that provides advanced language support like autocompletions, errors checking, and refactoring.|
+|Treesitter|Parser that enables rich syntax highlighting and other advanced text parsing features.|
+Telescope|Fuzzy finder plugin to quickly search and navigate files, commands, etc.|
 
-See [here](./lua/user/plugins.lua) for the entire plugin
+See [here](./lua/user/plugins.lua) for the entire plugin.
 
 ### Manager plugin.
 ```lua
@@ -30,7 +33,7 @@ if fn.empty(fn.glob(install_path)) > 0 then
 end
 ```
 
-### cmp
+### Cmp
 > _Where the icons are objects, functions, classes, etc?_
 
 You can change all values with any unicode character you like.
