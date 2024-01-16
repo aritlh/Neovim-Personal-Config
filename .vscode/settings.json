@@ -1,7 +1,0 @@
-{
-    "Lua.diagnostics.globals": [
-        "vim"
-    ],
-    "editor.suggestLineHeight": 0,
-    "editor.lineHeight": 1.5
-}
